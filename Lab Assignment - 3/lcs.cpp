@@ -10,7 +10,7 @@ int lcs( char *X, char *Y, int m, int n )
 		return max(lcs(X, Y, m, n-1), lcs(X, Y, m-1, n));
 }
 int main()
-{
+{  
 	char X[] = "AGGTAB";
 	char Y[] = "GXTXAYB";
 	int m = strlen(X);
